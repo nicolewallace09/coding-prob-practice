@@ -20,12 +20,3 @@ console.log(firstFactorial(4));
 
 
 
-
-var firstFactorial = function(num) {
-    var factors = 1;
-
-    for(var i = 1; i <= num; i++) {
-        factors = factors * i;
-    }
-    return factors; 
-}

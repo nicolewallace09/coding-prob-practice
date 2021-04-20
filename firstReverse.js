@@ -15,16 +15,3 @@ var firstReverse = function(str) {
 
 console.log(firstReverse("Nicole")); 
 
-
-
-
-
-
-var firstReverse = function(str) {
-    var newStr = ''; 
-
-    for(var i=0; i < str.length; i++) {
-        newStr = str[i] + newStr; 
-    }
-    return newStr; 
-}
