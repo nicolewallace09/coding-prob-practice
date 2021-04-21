@@ -1,6 +1,4 @@
-// takes in a string and returns in a reverse order 
-
-const { SCHED_RR } = require("cluster");
+// takes in a string and returns in a reverse order
 
 var firstReverse = function(str) {
     var newStr = ''; 
