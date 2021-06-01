@@ -12,12 +12,12 @@ const isTheDinnerVegan = (arr) => {
     return false; 
     }
 
-    for(i = 0; i < arr.length; i++){
+    for(let i = 0; i < arr.length; i++){
       if(!isVegan(arr[i])) {
         return false;
       }
     }
-      return true; 
+    return true; 
 }
 
 const dinner = [{name: 'hamburger', source: 'meat'}, {name: 'cheese', source: 'dairy'}, {name: 'ketchup', source:'plant'}, {name: 'bun', source: 'plant'}, {name: 'dessert twinkies', source:'unknown'}];

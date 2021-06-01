@@ -2,7 +2,7 @@
 
 const convertToBaby = (array) => {
     let babyArray = [];
-    for(i = 0; i < array.length; i++) {
+    for(let i = 0; i < array.length; i++) {
       babyArray.push('baby ' + array[i]);
     }
     return babyArray;

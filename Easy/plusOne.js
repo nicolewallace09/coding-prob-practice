@@ -3,8 +3,6 @@
 // each element in the array contain a single digit
 // assume the int does not lead with a zero, unless it is 0 itself 
 
-const e = require("express");
-
 var plusOne = function(digits) {
     // start at end of the array; zero or less; increment backwards 
     for(var i = digits.length-1; i >= 0; i--) {

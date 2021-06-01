@@ -4,7 +4,7 @@ If they’re not in the array, your function should return -1.
 */ 
 
 const findMyKeys = (myStuff) => {
-    for(i = 0; i < myStuff.length; i++) {
+    for(let i = 0; i < myStuff.length; i++) {
       if(myStuff[i] === 'keys') {
         return i;  
       }

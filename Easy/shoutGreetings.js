@@ -3,7 +3,7 @@
 
 const shoutGreetings = (array) => {
     let newArray = [];
-    for(i = 0; i < array.length; i++) {
+    for(let i = 0; i < array.length; i++) {
       newArray.push(array[i].toUpperCase() + "!");
      
     }
