@@ -2,7 +2,7 @@
 // otherwise, return false.
 // an integer n is a power of three, if there exists an integer x such that n == 3x.
 
-var isPowerOfThree = function(n) {
+const isPowerOfThree = (n) => {
     let i = 1;
     
     while(i < n) {

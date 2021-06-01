@@ -3,7 +3,7 @@
 // return common numbers in a string with commas separating the numbers
 // example ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"] output: 1,4,13
 
-function FindIntersection(strArr) { 
+const findIntersection = (strArr) => { 
 
     let newArr = []; 
     let str1 = strArr[0].split(', '); 
@@ -29,6 +29,6 @@ function FindIntersection(strArr) {
   
   }
 
-console.log(FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
+console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
 
 

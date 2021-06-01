@@ -3,9 +3,9 @@
 // each element in the array contain a single digit
 // assume the int does not lead with a zero, unless it is 0 itself 
 
-var plusOne = function(digits) {
+const plusOne = (digits) => {
     // start at end of the array; zero or less; increment backwards 
-    for(var i = digits.length-1; i >= 0; i--) {
+    for(let i = digits.length-1; i >= 0; i--) {
         // if digits is less than 9, add to the digit 
         if(digits[i] < 9) {
             digits[i] = digits[i] + 1;

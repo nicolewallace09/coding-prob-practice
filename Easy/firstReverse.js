@@ -1,10 +1,10 @@
 // takes in a string and returns in a reverse order
 
-var firstReverse = function(str) {
+const firstReverse = (str) => {
     var newStr = ''; 
 
     // loop through the string
-    for(var i = 0; i < str.length; i++) {
+    for(let i = 0; i < str.length; i++) {
         // add into the new string variable 
         newStr = str[i] + newStr;
     }

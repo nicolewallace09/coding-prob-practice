@@ -3,14 +3,14 @@
 // multiples of 5 should output "Buzz"
 // multiples of 3 and 5 should output "FizzBuzz"
 
-var fizzBuzz = function(n) {
+const fizzBuzz = (n) => {
     // create an empty array
-    var arr = [];
+    let arr = [];
     // create an empty string 
-    var str = ''; 
+    let str = ''; 
 
     // loop through the array 
-    for(var i = 1; i <= n ; i++) {
+    for(let i = 1; i <= n ; i++) {
         if(i % 5 == 0 && i % 3 == 0) {
             str = 'FizzBuzz';
         } else if(i % 3 == 0) {
