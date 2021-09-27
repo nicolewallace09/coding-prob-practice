@@ -1,6 +1,6 @@
 const evenDigits = (a) => {
     let positiveCounter = 0; 
-    nums = a; 
+    let nums = a; 
 
     for(let num of nums) {
         let digits = 0; 
