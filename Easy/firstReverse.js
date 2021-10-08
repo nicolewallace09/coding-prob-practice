@@ -1,7 +1,7 @@
 // takes in a string and returns in a reverse order
 
 const firstReverse = (str) => {
-    var newStr = ''; 
+    let newStr = ''; 
 
     // loop through the string
     for(let i = 0; i < str.length; i++) {

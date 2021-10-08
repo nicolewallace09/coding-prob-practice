@@ -5,8 +5,8 @@ const convertToBaby = (array) => {
     for(let i = 0; i < array.length; i++) {
       babyArray.push('baby ' + array[i]);
     }
-    return babyArray;
-  }
+  return babyArray;
+}
   
 const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
 
