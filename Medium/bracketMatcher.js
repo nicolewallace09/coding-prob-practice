@@ -29,7 +29,44 @@ function BracketMatcher(str) {
         }
     }
     return stack.length === 0 ? 1:0; 
-}
+}                        
 
 console.log(BracketMatcher("(coder)(byte))")); // 0
 console.log(BracketMatcher("(coder)(b(yte))")); // 1 
+
+
+const balancedbrackets = (str) => {
+    const stack = [];
+    let openers = ["{", "[", "("];
+    let closers = ["}", "]", ")"];
+    
+    const dict = {
+      "{" : "}",
+      "[" : "]",
+      "(" : ")"
+    }
+  
+    for(let i = 0; i < str.length; i++) {
+          let char = str[i];
+          if(openers.includes(char)) {
+              stack.push(char);
+          }
+          else if(closers.includes(char)) {
+              //is our stack empty? 
+  
+              if(!stack.length) {
+                  return false;
+              }
+              //does our popped element not match the corresponding element?
+              else if(dict[stack.pop()] !== char) {
+                  return false;
+              }
+          }
+      }
+      
+      return stack.length === 0;
+  
+  }
+
+  // We use a data structure called a stack that takes a first in, last out approach to do that.
+  // When we come across an open bracket, we push it on to the stack. When we come across a closed one, we check to see if the last index of the stack is the opposite the current character.
