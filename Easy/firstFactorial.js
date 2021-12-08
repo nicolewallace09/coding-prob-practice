@@ -10,12 +10,12 @@ const firstFactorial = (num) => {
     // <= num because we want to include number being passed in 
     for(let i = 1; i <= num; i++) {
         // add factors to be multiplied and return the factors 
-        factors = factors * i;
+        factors *= i;
     }
     return factors; 
 }
 
-console.log(firstFactorial(4)); 
+console.log(firstFactorial(4)); // 24 
 
 
 

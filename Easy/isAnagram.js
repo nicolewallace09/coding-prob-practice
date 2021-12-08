@@ -19,5 +19,5 @@ const isAnagram = (str1, str2) => {
     }
 }
 
-console.log(isAnagram("cinema","iceman"));
-console.log(isAnagram("cinema","movie"));
+console.log(isAnagram("cinema","iceman")); // true 
+console.log(isAnagram("cinema","movie")); // false 

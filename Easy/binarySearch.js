@@ -1,7 +1,7 @@
 var doSearch = function(array, targetValue) {
 	var min = 0;
 	var max = array.length - 1;
-    var guess;
+  var guess;
 
   while (max > min) { 
     guess = max + min / 2 
@@ -17,4 +17,4 @@ var doSearch = function(array, targetValue) {
 	return -1;
 };
 
-doSearch([1, 2, 3, 4, 5, 6], 6)
+console.log(doSearch([1, 2, 3, 4, 5, 6], 4))

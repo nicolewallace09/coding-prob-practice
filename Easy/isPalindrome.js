@@ -11,10 +11,12 @@
 const isPalindrome = (str) => {
     let newStr = '';
 
+    // reverse the string 
     for(let i = 0; i < str.length; i++) {
-        newStr += str[i]; 
+        newStr = str[i] + newStr; 
     }
 
+    // compare the new string with the old string 
     for(let j = 0; j < newStr.length; j++) {
         if(newStr == str[j]) {
             return true;

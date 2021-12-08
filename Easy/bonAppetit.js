@@ -1,7 +1,7 @@
 function bonAppetit(bill, k, b) {
     // Write your code here
     // bill = array the cost of items
-    // k = int representing index of item Anna doesnt eat
+    // k = int representing index of item Anna doesn't eat
     // b = amount of money anna contributed to the bill 
     let totalBill = 0; 
     let totalActual = 0; 
@@ -23,4 +23,4 @@ function bonAppetit(bill, k, b) {
     }
 }
 
-bonAppetit([3,10,2,9], 1, 12)
+bonAppetit([3,10,2,9], 1, 12) // 5 

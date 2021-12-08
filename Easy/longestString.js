@@ -23,4 +23,4 @@ const longestString = (array) => {
     return longStr; 
 }
 
-longestString(["Spiderman", "Thor", "Iron Man", "Hulk", "Black Widow"]); 
+console.log(longestString(["Spiderman", "Thor", "Iron Man", "Hulk", "Black Widow"])); // Black Widow 

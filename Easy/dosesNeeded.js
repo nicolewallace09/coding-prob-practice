@@ -7,3 +7,6 @@ function hurdleRace(k, height) {
     // return doseNeeded or 0 if doseNeeded is lower than 0, meaning k is enough
     return Math.max(0, doseNeeded);
 }
+
+// Math.max returns the largest number 
+// Math.max(...array)

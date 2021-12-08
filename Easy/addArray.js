@@ -13,4 +13,4 @@ const addAll = (array) => {
     return sum; 
 }
 
-console.log(addAll(array))
+console.log(addAll([1, 2, 3, 4]))

@@ -1,5 +1,9 @@
+// child will only be able to blow out the tallest candle on their birthday
+// they are only given number of candles for their age 
+// return the number of candles that are the tallest
+
+
 function birthdayCakeCandles(candles) {
-    // Write your code here
     let tallest = 0; 
     let count = 0; 
     
@@ -14,3 +18,5 @@ function birthdayCakeCandles(candles) {
     }
     return count;
 }
+
+console.log(birthdayCakeCandles([3, 2, 1, 3])) // 2 

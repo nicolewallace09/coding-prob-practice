@@ -1,3 +1,5 @@
+// given an array return the indexes in an array of the even numbers 
+
 const evenNumbers = (array) => {
     let evenArray = []; 
 

@@ -1,9 +1,9 @@
+// input = array
+// output = return 1 int
+// loop through array 
+// compare if number at index has occurred
+
 function lonelyinteger(a) {
-    // Write your code here
-    // input = array
-    // output = return 1 int
-    // loop through array 
-    // compare if number at index has occured
     let sortedArray = a.sort(); 
     let uniqueElement = 0; 
     
@@ -13,5 +13,6 @@ function lonelyinteger(a) {
         } 
     }
     return uniqueElement; 
-
 }
+
+console.log(lonelyinteger([3, 3, 3, 3, 3, 2])) 
