@@ -1,6 +1,6 @@
 // return the indexes of duplicate numbers
 
-const findDuplicate = (nums) => {
+const findDuplicate1 = (nums) => {
     for(let i = 0; i < nums.length; i++) {
         for(let j = 0; j < nums.length; j++) {
             if(nums[i] === nums[j]) {
@@ -10,7 +10,7 @@ const findDuplicate = (nums) => {
     }
 }
 
-const findDuplicate = (nums) => {
+const findDuplicate2 = (nums) => {
     nums.sort()
     for(let i = 0; i < nums.length; i++) {
         if(nums[i] == nums[i + 1]) {
@@ -19,7 +19,7 @@ const findDuplicate = (nums) => {
     }
 }
 
-const findDuplicate = (nums) => {
+const findDuplicate3 = (nums) => {
     let count = {}; 
     for(let i = 0; i < nums.length; i++) {
         const value = nums[i]
@@ -31,4 +31,4 @@ const findDuplicate = (nums) => {
     }
 }
 
-console.log(findDuplicate([1, 2, 2, 3, 4]))
+console.log(findDuplicate3([1, 2, 2, 3, 4]))
